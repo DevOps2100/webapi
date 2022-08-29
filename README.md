@@ -1,5 +1,5 @@
 # webapi
-以go语言为主的webapi笔记
+以go语言为主的webapi写法
 
 技术栈
 - gin
