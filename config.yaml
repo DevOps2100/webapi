@@ -1,0 +1,20 @@
+name: "webapi"
+port: 51000
+logsAddress: "./logs/"
+
+mysql:
+  username: "root"
+  host: "42.193.154.221"
+  port: 3306
+  password: "adl1314520"
+  dbname: "webapi"
+  SetMaxOpenConns: 50
+  SetMaxIdleConns: 100
+
+redis:
+  host: "42.193.154.221"
+  port: 6379
+  password: "adl1314520"
+  db: 01
+jwt:
+  key: "DXWk12osdfOLIAErh123AdOp12d2ZqGksGt"
