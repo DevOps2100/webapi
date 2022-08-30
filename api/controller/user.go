@@ -9,13 +9,6 @@ import (
 	"go.uber.org/zap"
 )
 
-// 用户登录
-func Login(ctx *gin.Context) {
-	ctx.JSON(200, gin.H{
-		"msg": "success",
-	})
-}
-
 // 用户添加
 func UserAdd(ctx *gin.Context) {
 	var user forms.UserAddForm
@@ -90,5 +83,25 @@ func DeleteUser(ctx *gin.Context) {
 				"msg": response,
 			})
 		}
+	}
+}
+
+// 用户修改
+func UpdateUser(ctx *gin.Context) {
+	var user forms.UserInfo
+	if err := ctx.BindJSON(&user); err != nil {
+		zap.L().Info("用户数据错误")
+		ctx.JSON(200, gin.H{
+			"msg": "用户数据错误",
+		})
+		return
+	}
+	ok, response := dao.UpdateUser(user.Username, user.Password)
+	if ok {
+		zap.L().Info("用户修改成功")
+		ctx.JSON(200, gin.H{
+			"msg": response,
+		})
+		return
 	}
 }

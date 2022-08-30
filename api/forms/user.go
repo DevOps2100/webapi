@@ -25,3 +25,8 @@ type UserListAllForm struct {
 type UsernameForm struct {
 	Username string `form:"username" json:"username" binding:"required"`
 }
+
+type UserInfo struct {
+	Username string `form:"username" json:"username" binding:"required"`
+	Password string `form:"password" json:"password" binding:"required,min=3,max=20"`
+}

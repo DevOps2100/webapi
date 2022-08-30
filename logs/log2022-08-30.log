@@ -714,3 +714,85 @@ net/http.(*conn).serve
 2022-08-30T11:25:24.295+0800	INFO	controller/user.go:88	用户不存在
 2022-08-30T11:25:24.947+0800	INFO	dao/user.go:80	用户不存在,无法执行删除动作
 2022-08-30T11:25:24.947+0800	INFO	controller/user.go:88	用户不存在
+2022-08-30T18:46:00.990+0800	INFO	dao/user.go:102	修改成功
+2022-08-30T18:46:00.990+0800	INFO	controller/user.go:101	用户修改成功
+2022-08-30T18:46:19.308+0800	INFO	dao/user.go:102	修改成功
+2022-08-30T18:46:19.308+0800	INFO	controller/user.go:101	用户修改成功
+2022-08-30T18:48:39.417+0800	INFO	dao/user.go:102	修改成功
+2022-08-30T18:48:39.418+0800	INFO	controller/user.go:101	用户修改成功
+2022-08-30T18:48:42.966+0800	INFO	dao/user.go:102	修改成功
+2022-08-30T18:48:42.967+0800	INFO	controller/user.go:101	用户修改成功
+2022-08-30T18:49:24.594+0800	INFO	dao/user.go:102	修改成功
+2022-08-30T18:49:24.594+0800	INFO	controller/user.go:101	用户修改成功
+2022-08-30T18:52:23.257+0800	ERROR	middlewares/middleware.go:75	[Recovery from panic]	{"error": "reflect: call of reflect.Value.SetString on uint Value", "request": "POST /v1/user/updateuser HTTP/1.1\r\nHost: 127.0.0.1:51000\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nCache-Control: no-cache\r\nConnection: keep-alive\r\nContent-Length: 71\r\nContent-Type: application/json\r\nPostman-Token: 907d3eb8-d58d-431a-8069-0357cdd38567\r\nUser-Agent: PostmanRuntime/7.29.2\r\n\r\n", "stack": "goroutine 72 [running]:\nruntime/debug.Stack()\n\tC:/Program Files/Go/src/runtime/debug/stack.go:24 +0x65\nwebapi/middlewares.GinRecovery.func1.1()\n\tC:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:78 +0x2da\npanic({0x10b6900, 0xc000004408})\n\tC:/Program Files/Go/src/runtime/panic.go:838 +0x207\nreflect.flag.mustBe(...)\n\tC:/Program Files/Go/src/reflect/value.go:223\nreflect.Value.SetString({0x1092c80?, 0xc0000948a0?, 0x11272c0?}, {0xc0000ba2d0, 0x6})\n\tC:/Program Files/Go/src/reflect/value.go:2292 +0xe6\ngorm.io/gorm/schema.(*Field).setupValuerAndSetter.func11({0x12854e8?, 0xc0000ba0e8?}, {0x11272c0?, 0xc0000948a0?, 0xc000467c28?}, {0x1092b00?, 0xc0000b46c0?})\n\tC:/Users/xiong.li/go/pkg/mod/gorm.io/gorm@v1.23.8/schema/field.go:781 +0x3bd\ngorm.io/gorm/callbacks.ConvertToAssignments.func2(0x10c0320?, {0x1092b00?, 0xc0000b46c0?})\n\tC:/Users/xiong.li/go/pkg/mod/gorm.io/gorm@v1.23.8/callbacks/update.go:144 +0x5b\ngorm.io/gorm/callbacks.ConvertToAssignments(0xc00022e000)\n\tC:/Users/xiong.li/go/pkg/mod/gorm.io/gorm@v1.23.8/callbacks/update.go:275 +0xc7b\ngorm.io/gorm/callbacks.Update.func1(0xc0005169f0)\n\tC:/Users/xiong.li/go/pkg/mod/gorm.io/gorm@v1.23.8/callbacks/update.go:73 +0x205\ngorm.io/gorm.(*processor).Execute(0xc000460c80, 0x10f49c0?)\n\tC:/Users/xiong.li/go/pkg/mod/gorm.io/gorm@v1.23.8/callbacks.go:130 +0x433\ngorm.io/gorm.(*DB).Updates(0x10f49c0?, {0x10f49c0?, 0xc0000b46c0})\n\tC:/Users/xiong.li/go/pkg/mod/gorm.io/gorm@v1.23.8/finisher_api.go:372 +0x92\nwebapi/api/dao.UpdateUser({0xc0000ba2d0, 0x6}, {0xc0000d6c78, 0x14})\n\tC:/Users/xiong.li/Downloads/webapi/api/dao/user.go:101 +0x139\nwebapi/api/controller.UpdateUser(0xc000508800?)\n\tC:/Users/xiong.li/Downloads/webapi/api/controller/user.go:99 +0x148\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.GinRecovery.func1(0xc0001e2300)\n\tC:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89 +0x76\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.GinLogger.func1(0xc0001e2300)\n\tC:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25 +0xa2\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc0001e2300)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 +0x82\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0001e2300)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 +0xe7\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000483520, 0xc0001e2300)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 +0x671\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000483520, {0x1284bc8?, 0xc000420000}, 0xc0001e2200)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 +0x1dd\nnet/http.serverHandler.ServeHTTP({0x12836f8?}, {0x1284bc8, 0xc000420000}, 0xc0001e2200)\n\tC:/Program Files/Go/src/net/http/server.go:2916 +0x43b\nnet/http.(*conn).serve(0xc00050ebe0, {0x1285558, 0xc00002dd10})\n\tC:/Program Files/Go/src/net/http/server.go:1966 +0x5d7\ncreated by net/http.(*Server).Serve\n\tC:/Program Files/Go/src/net/http/server.go:3071 +0x4db\n"}
+webapi/middlewares.GinRecovery.func1.1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:75
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:838
+reflect.flag.mustBe
+	C:/Program Files/Go/src/reflect/value.go:223
+reflect.Value.SetString
+	C:/Program Files/Go/src/reflect/value.go:2292
+gorm.io/gorm/schema.(*Field).setupValuerAndSetter.func11
+	C:/Users/xiong.li/go/pkg/mod/gorm.io/gorm@v1.23.8/schema/field.go:781
+gorm.io/gorm/callbacks.ConvertToAssignments.func2
+	C:/Users/xiong.li/go/pkg/mod/gorm.io/gorm@v1.23.8/callbacks/update.go:144
+gorm.io/gorm/callbacks.ConvertToAssignments
+	C:/Users/xiong.li/go/pkg/mod/gorm.io/gorm@v1.23.8/callbacks/update.go:275
+gorm.io/gorm/callbacks.Update.func1
+	C:/Users/xiong.li/go/pkg/mod/gorm.io/gorm@v1.23.8/callbacks/update.go:73
+gorm.io/gorm.(*processor).Execute
+	C:/Users/xiong.li/go/pkg/mod/gorm.io/gorm@v1.23.8/callbacks.go:130
+gorm.io/gorm.(*DB).Updates
+	C:/Users/xiong.li/go/pkg/mod/gorm.io/gorm@v1.23.8/finisher_api.go:372
+webapi/api/dao.UpdateUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:101
+webapi/api/controller.UpdateUser
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T18:52:23.262+0800	INFO	middlewares/middleware.go:31	/v1/user/updateuser	{"status": 500, "method": "POST", "path": "/v1/user/updateuser", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "17.7002ms"}
+2022-08-30T18:56:23.805+0800	INFO	dao/user.go:100	修改成功
+2022-08-30T18:56:23.805+0800	INFO	controller/user.go:101	用户修改成功
+2022-08-30T18:56:25.613+0800	INFO	dao/user.go:100	修改成功
+2022-08-30T18:56:25.613+0800	INFO	controller/user.go:101	用户修改成功
+2022-08-30T19:03:01.409+0800	INFO	dao/user.go:110	修改成功
+2022-08-30T19:03:01.410+0800	INFO	controller/user.go:101	用户修改成功
+2022-08-30T19:03:08.582+0800	INFO	dao/user.go:110	修改成功
+2022-08-30T19:03:08.582+0800	INFO	controller/user.go:101	用户修改成功
+2022-08-30T19:03:09.430+0800	INFO	dao/user.go:110	修改成功
+2022-08-30T19:03:09.430+0800	INFO	controller/user.go:101	用户修改成功
+2022-08-30T19:03:19.724+0800	INFO	dao/user.go:110	修改成功
+2022-08-30T19:03:19.724+0800	INFO	controller/user.go:101	用户修改成功
+2022-08-30T19:04:49.573+0800	INFO	dao/user.go:110	修改成功
+2022-08-30T19:04:49.573+0800	INFO	controller/user.go:101	用户修改成功
+2022-08-30T19:05:08.615+0800	INFO	dao/user.go:110	修改成功
+2022-08-30T19:05:08.615+0800	INFO	controller/user.go:101	用户修改成功
+2022-08-30T19:05:36.291+0800	INFO	dao/user.go:110	修改成功
+2022-08-30T19:05:36.291+0800	INFO	controller/user.go:101	用户修改成功
+2022-08-30T19:06:15.853+0800	INFO	dao/user.go:110	修改成功
+2022-08-30T19:06:15.853+0800	INFO	controller/user.go:101	用户修改成功

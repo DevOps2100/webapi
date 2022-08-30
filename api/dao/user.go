@@ -90,3 +90,23 @@ func DeleteUser(username string) (bool, string) {
 		}
 	}
 }
+
+type User struct {
+	Username string
+	Password string
+}
+
+// 用户修改
+func UpdateUser(username string, password string) (bool, string) {
+	updataFood := User{
+		Username: username,
+		Password: password,
+	}
+
+	//  UPDATE `foods` SET `price` = '120', `title` = '柠檬雪碧'  WHERE `foods`.`id` = '2'
+	response := global.DB.Model(&User{}).Where("username > ?", username).Updates(&updataFood)
+	// Model(&user).Where("username = ?", username).Update(password, username)
+	fmt.Println(response.RowsAffected)
+	zap.L().Info("修改成功")
+	return true, "修改成功"
+}
