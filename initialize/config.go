@@ -23,5 +23,5 @@ func InitConfig() {
 	}
 
 	global.Config = serverConfig
-	color.Green("配置初始化成功！")
+	color.Green("配置初始化成功")
 }

@@ -12,5 +12,9 @@ func UserRouter(Router *gin.RouterGroup) {
 	{
 		User.GET("login", controller.Login)
 		User.POST("login", controller.Login)
+		User.POST("useradd", controller.UserAdd)
+		User.GET("getuser", controller.GetUser)
+		User.GET("getuserall", controller.GetUserAll)
+		User.POST("deleteuser", controller.DeleteUser)
 	}
 }

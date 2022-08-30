@@ -29,7 +29,6 @@ func main() {
 	initialize.InitLogger()
 	// 路由配置初始化
 	Router := initialize.Routers()
-
 	color.Green("启动成功")
 	// 服务启动
 	err := Router.Run(fmt.Sprintf(":%d", global.Config.Port))

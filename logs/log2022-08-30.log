@@ -1,0 +1,716 @@
+2022-08-30T10:34:08.448+0800	ERROR	dao/user.go:21	用户已存在,添加失败
+webapi/api/dao.UserCheckIsExistUserName
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:21
+webapi/api/dao.AddUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:31
+webapi/api/controller.UserAdd
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:34:08.451+0800	ERROR	dao/user.go:33	用户已存在
+webapi/api/dao.AddUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:33
+webapi/api/controller.UserAdd
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:34:08.453+0800	INFO	controller/user.go:31	用户已存在
+2022-08-30T10:34:09.490+0800	ERROR	dao/user.go:21	用户已存在,添加失败
+webapi/api/dao.UserCheckIsExistUserName
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:21
+webapi/api/dao.AddUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:31
+webapi/api/controller.UserAdd
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:34:09.493+0800	ERROR	dao/user.go:33	用户已存在
+webapi/api/dao.AddUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:33
+webapi/api/controller.UserAdd
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:34:09.495+0800	INFO	controller/user.go:31	用户已存在
+2022-08-30T10:34:10.206+0800	ERROR	dao/user.go:21	用户已存在,添加失败
+webapi/api/dao.UserCheckIsExistUserName
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:21
+webapi/api/dao.AddUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:31
+webapi/api/controller.UserAdd
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:34:10.209+0800	ERROR	dao/user.go:33	用户已存在
+webapi/api/dao.AddUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:33
+webapi/api/controller.UserAdd
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:34:10.211+0800	INFO	controller/user.go:31	用户已存在
+2022-08-30T10:34:10.760+0800	ERROR	dao/user.go:21	用户已存在,添加失败
+webapi/api/dao.UserCheckIsExistUserName
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:21
+webapi/api/dao.AddUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:31
+webapi/api/controller.UserAdd
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:34:10.762+0800	ERROR	dao/user.go:33	用户已存在
+webapi/api/dao.AddUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:33
+webapi/api/controller.UserAdd
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:29
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:34:10.765+0800	INFO	controller/user.go:31	用户已存在
+2022-08-30T10:50:16.026+0800	ERROR	dao/user.go:21	用户已存在
+webapi/api/dao.UserCheckIsExistUserName
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:21
+webapi/api/dao.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:49
+webapi/api/controller.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:48
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:50:25.042+0800	ERROR	dao/user.go:51	查询的用户不存在
+webapi/api/dao.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:51
+webapi/api/controller.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:48
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:51:44.105+0800	ERROR	dao/user.go:51	查询的用户不存在
+webapi/api/dao.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:51
+webapi/api/controller.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:48
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:51:48.729+0800	ERROR	dao/user.go:21	用户已存在
+webapi/api/dao.UserCheckIsExistUserName
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:21
+webapi/api/dao.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:49
+webapi/api/controller.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:48
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:52:00.995+0800	ERROR	dao/user.go:21	用户已存在
+webapi/api/dao.UserCheckIsExistUserName
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:21
+webapi/api/dao.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:49
+webapi/api/controller.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:48
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:52:01.659+0800	ERROR	dao/user.go:21	用户已存在
+webapi/api/dao.UserCheckIsExistUserName
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:21
+webapi/api/dao.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:49
+webapi/api/controller.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:48
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:52:02.252+0800	ERROR	dao/user.go:21	用户已存在
+webapi/api/dao.UserCheckIsExistUserName
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:21
+webapi/api/dao.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:49
+webapi/api/controller.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:48
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:52:02.830+0800	ERROR	dao/user.go:21	用户已存在
+webapi/api/dao.UserCheckIsExistUserName
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:21
+webapi/api/dao.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:49
+webapi/api/controller.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:48
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:52:03.416+0800	ERROR	dao/user.go:21	用户已存在
+webapi/api/dao.UserCheckIsExistUserName
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:21
+webapi/api/dao.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:49
+webapi/api/controller.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:48
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:52:04.095+0800	ERROR	dao/user.go:21	用户已存在
+webapi/api/dao.UserCheckIsExistUserName
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:21
+webapi/api/dao.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:49
+webapi/api/controller.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:48
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:52:05.979+0800	ERROR	dao/user.go:21	用户已存在
+webapi/api/dao.UserCheckIsExistUserName
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:21
+webapi/api/dao.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:49
+webapi/api/controller.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:48
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:53:21.806+0800	ERROR	dao/user.go:50	查询的用户不存在
+webapi/api/dao.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/dao/user.go:50
+webapi/api/controller.GetUser
+	C:/Users/xiong.li/Downloads/webapi/api/controller/user.go:48
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	C:/Users/xiong.li/Downloads/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-08-30T10:53:58.522+0800	INFO	dao/user.go:50	查询的用户不存在
+2022-08-30T10:54:50.186+0800	INFO	dao/user.go:50	查询的用户不存在
+2022-08-30T10:54:51.167+0800	INFO	dao/user.go:50	查询的用户不存在
+2022-08-30T10:54:51.839+0800	INFO	dao/user.go:50	查询的用户不存在
+2022-08-30T10:54:52.416+0800	INFO	dao/user.go:50	查询的用户不存在
+2022-08-30T10:55:08.884+0800	INFO	controller/user.go:42	数据获取错误
+2022-08-30T10:55:08.884+0800	INFO	middlewares/middleware.go:31	/v1/user/getuser	{"status": 400, "method": "GET", "path": "/v1/user/getuser", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "537.3µs"}
+2022-08-30T10:55:10.113+0800	INFO	controller/user.go:42	数据获取错误
+2022-08-30T10:55:10.114+0800	INFO	middlewares/middleware.go:31	/v1/user/getuser	{"status": 400, "method": "GET", "path": "/v1/user/getuser", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "903.3µs"}
+2022-08-30T11:02:14.264+0800	INFO	dao/user.go:69	查询成功
+2022-08-30T11:03:01.504+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-30T11:03:01.505+0800	INFO	controller/user.go:31	添加成功
+2022-08-30T11:03:04.642+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-30T11:03:04.643+0800	INFO	controller/user.go:31	添加成功
+2022-08-30T11:03:07.592+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-30T11:03:07.593+0800	INFO	controller/user.go:31	添加成功
+2022-08-30T11:03:10.802+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-30T11:03:10.802+0800	INFO	controller/user.go:31	添加成功
+2022-08-30T11:03:14.071+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-30T11:03:14.071+0800	INFO	controller/user.go:31	添加成功
+2022-08-30T11:03:17.187+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-30T11:03:17.187+0800	INFO	controller/user.go:31	添加成功
+2022-08-30T11:03:20.503+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-30T11:03:20.503+0800	INFO	controller/user.go:31	添加成功
+2022-08-30T11:03:24.250+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-30T11:03:24.250+0800	INFO	controller/user.go:31	添加成功
+2022-08-30T11:03:26.860+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-30T11:03:26.860+0800	INFO	controller/user.go:31	添加成功
+2022-08-30T11:03:29.849+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-30T11:03:29.849+0800	INFO	controller/user.go:31	添加成功
+2022-08-30T11:03:31.755+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-30T11:03:31.755+0800	INFO	controller/user.go:31	添加成功
+2022-08-30T11:03:33.772+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-30T11:03:33.772+0800	INFO	controller/user.go:31	添加成功
+2022-08-30T11:03:35.743+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-30T11:03:35.743+0800	INFO	controller/user.go:31	添加成功
+2022-08-30T11:03:37.713+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-30T11:03:37.713+0800	INFO	controller/user.go:31	添加成功
+2022-08-30T11:03:40.065+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-30T11:03:40.065+0800	INFO	controller/user.go:31	添加成功
+2022-08-30T11:03:42.217+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-30T11:03:42.217+0800	INFO	controller/user.go:31	添加成功
+2022-08-30T11:03:50.092+0800	INFO	middlewares/middleware.go:31	/v1/user/getuserall	{"status": 404, "method": "POST", "path": "/v1/user/getuserall", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "0s"}
+2022-08-30T11:03:53.276+0800	INFO	dao/user.go:69	查询成功
+2022-08-30T11:19:16.914+0800	INFO	dao/user.go:69	查询成功
+2022-08-30T11:19:28.884+0800	INFO	controller/user.go:75	数据参数错误
+2022-08-30T11:19:32.742+0800	INFO	dao/user.go:88	删除失败
+2022-08-30T11:19:32.742+0800	INFO	controller/user.go:88	删除失败
+2022-08-30T11:19:39.699+0800	INFO	dao/user.go:80	用户不存在,无法执行删除动作
+2022-08-30T11:19:39.699+0800	INFO	controller/user.go:88	用户不存在
+2022-08-30T11:19:42.411+0800	INFO	dao/user.go:80	用户不存在,无法执行删除动作
+2022-08-30T11:19:42.411+0800	INFO	controller/user.go:88	用户不存在
+2022-08-30T11:20:27.465+0800	INFO	dao/user.go:88	删除失败
+2022-08-30T11:20:27.465+0800	INFO	controller/user.go:88	删除失败
+2022-08-30T11:21:14.468+0800	INFO	dao/user.go:80	用户不存在,无法执行删除动作
+2022-08-30T11:21:14.468+0800	INFO	controller/user.go:88	用户不存在
+2022-08-30T11:21:17.946+0800	INFO	dao/user.go:88	删除成功
+2022-08-30T11:21:17.946+0800	INFO	controller/user.go:88	删除成功
+2022-08-30T11:21:30.398+0800	INFO	dao/user.go:88	删除成功
+2022-08-30T11:21:30.398+0800	INFO	controller/user.go:88	删除成功
+2022-08-30T11:21:31.293+0800	INFO	dao/user.go:80	用户不存在,无法执行删除动作
+2022-08-30T11:21:31.293+0800	INFO	controller/user.go:88	用户不存在
+2022-08-30T11:25:24.295+0800	INFO	dao/user.go:80	用户不存在,无法执行删除动作
+2022-08-30T11:25:24.295+0800	INFO	controller/user.go:88	用户不存在
+2022-08-30T11:25:24.947+0800	INFO	dao/user.go:80	用户不存在,无法执行删除动作
+2022-08-30T11:25:24.947+0800	INFO	controller/user.go:88	用户不存在
