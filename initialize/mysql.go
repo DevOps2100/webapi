@@ -32,6 +32,7 @@ func InitMysqlDB() error {
 	sqlDB.SetMaxOpenConns(200)
 	// SetConnMaxLifetime 设置了连接可复用的最大时间
 	sqlDB.SetConnMaxLifetime(time.Hour)
+	// db.AutoMigrate(models.User{}) 自动创建数据表
 	global.DB = db
 	color.Green("MYSQL数据库初始化成功")
 	return nil

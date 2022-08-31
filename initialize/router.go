@@ -10,7 +10,10 @@ import (
 
 func Routers() *gin.Engine {
 	Router := gin.Default()
+	// 日志和错误处理
 	Router.Use(middlewares.GinLogger(), middlewares.GinRecovery(true))
+	// 跨域问题解决
+	Router.Use(middlewares.Cors())
 
 	// 服务默认监测路由
 	Router.GET("/ping", func(c *gin.Context) {

@@ -1,0 +1,105 @@
+2022-08-31T10:21:09.260+0800	INFO	dao/user.go:111	修改成功
+2022-08-31T10:21:09.260+0800	INFO	controller/user.go:101	用户修改成功
+2022-08-31T11:24:11.084+0800	INFO	controller/auth.go:17	login error: 	{"error": "Key: 'LoginForm.Password' Error:Field validation for 'Password' failed on the 'max' tag"}
+2022-08-31T11:24:11.085+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "513µs"}
+2022-08-31T11:25:07.205+0800	INFO	controller/auth.go:17	login error: 	{"error": "Key: 'LoginForm.Password' Error:Field validation for 'Password' failed on the 'max' tag"}
+2022-08-31T11:25:07.206+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "873.9µs"}
+2022-08-31T11:25:47.908+0800	INFO	controller/auth.go:17	login error: 	{"error": "Key: 'LoginForm.Password' Error:Field validation for 'Password' failed on the 'max' tag"}
+2022-08-31T11:25:47.909+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "869.4µs"}
+2022-08-31T11:26:25.008+0800	INFO	controller/auth.go:17	login error: 	{"error": "Key: 'LoginForm.Password' Error:Field validation for 'Password' failed on the 'max' tag"}
+2022-08-31T11:26:25.008+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "352.5µs"}
+2022-08-31T11:27:47.058+0800	INFO	controller/auth.go:17	login error: 	{"error": "Key: 'LoginForm.Password' Error:Field validation for 'Password' failed on the 'max' tag"}
+2022-08-31T11:27:47.059+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "233.9µs"}
+2022-08-31T11:27:52.416+0800	INFO	controller/auth.go:19	login error: 	{"error": "Key: 'LoginForm.Password' Error:Field validation for 'Password' failed on the 'max' tag"}
+2022-08-31T11:27:52.417+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "1.0456ms"}
+2022-08-31T11:32:14.004+0800	INFO	controller/auth.go:19	login error: 	{"error": "Key: 'LoginForm.Password' Error:Field validation for 'Password' failed on the 'max' tag"}
+2022-08-31T11:32:14.004+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "1.1574ms"}
+2022-08-31T11:32:20.914+0800	INFO	controller/auth.go:19	login error: 	{"error": "Key: 'LoginForm.Password' Error:Field validation for 'Password' failed on the 'max' tag"}
+2022-08-31T11:32:20.914+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "946.7µs"}
+2022-08-31T11:33:47.567+0800	INFO	controller/auth.go:19	login error: 	{"error": "Key: 'LoginForm.Password' Error:Field validation for 'Password' failed on the 'max' tag"}
+2022-08-31T11:33:47.568+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "1.1128ms"}
+2022-08-31T11:35:01.641+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "22.0163ms"}
+2022-08-31T11:36:21.201+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "22.5476ms"}
+2022-08-31T11:47:34.065+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "25.2706ms"}
+2022-08-31T11:52:40.572+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-31T11:52:40.573+0800	INFO	controller/user.go:28	添加成功
+2022-08-31T11:55:47.601+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "67.9625ms"}
+2022-08-31T12:00:32.109+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "67.1314ms"}
+2022-08-31T14:11:18.793+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "65.135ms"}
+2022-08-31T14:12:08.369+0800	INFO	middlewares/middleware.go:31	/v1/user/useradd	{"status": 401, "method": "POST", "path": "/v1/user/useradd", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "166.3µs"}
+2022-08-31T14:12:15.989+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-31T14:12:15.990+0800	INFO	controller/user.go:28	添加成功
+2022-08-31T14:12:49.607+0800	INFO	dao/user.go:32	用户已存在
+2022-08-31T14:12:49.607+0800	INFO	controller/user.go:28	用户已存在
+2022-08-31T14:14:22.603+0800	INFO	dao/user.go:32	用户已存在
+2022-08-31T14:14:22.603+0800	INFO	controller/user.go:28	用户已存在
+2022-08-31T14:38:41.311+0800	INFO	dao/user.go:32	用户已存在
+2022-08-31T14:38:41.312+0800	INFO	controller/user.go:28	用户已存在
+2022-08-31T14:40:45.686+0800	INFO	middlewares/middleware.go:31	/v1/user/useradd	{"status": 401, "method": "POST", "path": "/v1/user/useradd", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "535.8µs"}
+2022-08-31T14:40:50.371+0800	INFO	middlewares/middleware.go:31	/v1/user/useradd	{"status": 401, "method": "POST", "path": "/v1/user/useradd", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": "213µs"}
+2022-08-31T14:49:29.741+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "66.8269ms"}
+2022-08-31T14:56:22.159+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "67.5876ms"}
+2022-08-31T14:59:52.286+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "23.6209ms"}
+2022-08-31T15:00:32.037+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "22.8783ms"}
+2022-08-31T15:01:30.562+0800	INFO	middlewares/middleware.go:31	/v1/user/useradd	{"status": 400, "method": "POST", "path": "/v1/user/useradd", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "892.6µs"}
+2022-08-31T15:10:21.241+0800	INFO	middlewares/middleware.go:31	/v1/user/useradd	{"status": 400, "method": "POST", "path": "/v1/user/useradd", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "0s"}
+2022-08-31T15:10:36.253+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-31T15:10:36.253+0800	INFO	controller/user.go:28	添加成功
+2022-08-31T15:10:54.003+0800	INFO	dao/user.go:32	用户已存在
+2022-08-31T15:10:54.003+0800	INFO	controller/user.go:28	用户已存在
+2022-08-31T15:11:14.524+0800	INFO	dao/user.go:32	用户已存在
+2022-08-31T15:11:14.525+0800	INFO	controller/user.go:28	用户已存在
+2022-08-31T15:12:36.435+0800	INFO	dao/user.go:32	用户已存在
+2022-08-31T15:12:36.435+0800	INFO	controller/user.go:30	用户已存在
+2022-08-31T15:13:06.026+0800	INFO	dao/user.go:32	用户已存在
+2022-08-31T15:13:06.026+0800	INFO	controller/user.go:30	用户已存在
+2022-08-31T15:13:11.839+0800	INFO	dao/user.go:32	用户已存在
+2022-08-31T15:13:11.840+0800	INFO	controller/user.go:30	用户已存在
+2022-08-31T15:13:12.699+0800	INFO	dao/user.go:32	用户已存在
+2022-08-31T15:13:12.700+0800	INFO	controller/user.go:30	用户已存在
+2022-08-31T15:13:13.458+0800	INFO	dao/user.go:32	用户已存在
+2022-08-31T15:13:13.459+0800	INFO	controller/user.go:30	用户已存在
+2022-08-31T15:13:14.443+0800	INFO	dao/user.go:32	用户已存在
+2022-08-31T15:13:14.444+0800	INFO	controller/user.go:30	用户已存在
+2022-08-31T15:13:28.249+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-31T15:13:28.249+0800	INFO	controller/user.go:30	添加成功
+2022-08-31T15:14:10.073+0800	INFO	dao/user.go:32	用户已存在
+2022-08-31T15:14:10.073+0800	INFO	controller/user.go:31	用户已存在
+2022-08-31T15:14:17.297+0800	INFO	dao/user.go:32	用户已存在
+2022-08-31T15:14:17.298+0800	INFO	controller/user.go:31	用户已存在
+2022-08-31T15:15:01.206+0800	INFO	controller/user.go:24	数据格式错误
+2022-08-31T15:15:01.206+0800	INFO	middlewares/middleware.go:31	/v1/user/useradd	{"status": 400, "method": "POST", "path": "/v1/user/useradd", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "1.0934ms"}
+2022-08-31T15:19:39.013+0800	INFO	controller/user.go:24	数据格式错误
+2022-08-31T15:19:39.014+0800	INFO	middlewares/middleware.go:31	/v1/user/useradd	{"status": 400, "method": "POST", "path": "/v1/user/useradd", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "1.1692ms"}
+2022-08-31T15:19:40.371+0800	INFO	controller/user.go:24	数据格式错误
+2022-08-31T15:19:40.371+0800	INFO	middlewares/middleware.go:31	/v1/user/useradd	{"status": 400, "method": "POST", "path": "/v1/user/useradd", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "707.7µs"}
+2022-08-31T15:19:41.133+0800	INFO	controller/user.go:24	数据格式错误
+2022-08-31T15:19:41.133+0800	INFO	middlewares/middleware.go:31	/v1/user/useradd	{"status": 400, "method": "POST", "path": "/v1/user/useradd", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "1.0351ms"}
+2022-08-31T15:19:59.559+0800	INFO	middlewares/middleware.go:31	/v1/user/useradd	{"status": 401, "method": "POST", "path": "/v1/user/useradd", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "967.7µs"}
+2022-08-31T15:20:27.467+0800	INFO	controller/user.go:24	数据格式错误
+2022-08-31T15:20:27.468+0800	INFO	middlewares/middleware.go:31	/v1/user/useradd	{"status": 400, "method": "POST", "path": "/v1/user/useradd", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "1.0072ms"}
+2022-08-31T15:20:38.440+0800	INFO	middlewares/middleware.go:31	/v1/user/useradd	{"status": 401, "method": "POST", "path": "/v1/user/useradd", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "593.3µs"}
+2022-08-31T15:21:02.829+0800	INFO	controller/user.go:24	数据格式错误
+2022-08-31T15:21:02.830+0800	INFO	middlewares/middleware.go:31	/v1/user/useradd	{"status": 400, "method": "POST", "path": "/v1/user/useradd", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "1.5754ms"}
+2022-08-31T15:21:52.692+0800	INFO	middlewares/middleware.go:31	/v1/user/useradd	{"status": 401, "method": "POST", "path": "/v1/user/useradd", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "756µs"}
+2022-08-31T15:22:10.742+0800	INFO	middlewares/middleware.go:31	/v1/user/useradd	{"status": 401, "method": "POST", "path": "/v1/user/useradd", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "537.5µs"}
+2022-08-31T15:22:35.115+0800	INFO	dao/user.go:40	用户添加成功
+2022-08-31T15:22:35.115+0800	INFO	controller/user.go:35	添加成功
+2022-08-31T15:22:43.356+0800	INFO	dao/user.go:32	用户已存在
+2022-08-31T15:22:43.357+0800	INFO	controller/user.go:35	用户已存在
+2022-08-31T15:22:55.090+0800	INFO	dao/user.go:32	用户已存在
+2022-08-31T15:22:55.090+0800	INFO	controller/user.go:35	用户已存在
+2022-08-31T15:28:42.843+0800	INFO	middlewares/middleware.go:31	/v1/user/deleteuser	{"status": 401, "method": "POST", "path": "/v1/user/deleteuser", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "538.4µs"}
+2022-08-31T15:29:20.595+0800	INFO	middlewares/middleware.go:31	/v1/user/deleteuser	{"status": 401, "method": "POST", "path": "/v1/user/deleteuser", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "523.2µs"}
+2022-08-31T15:29:55.417+0800	INFO	dao/user.go:88	删除成功
+2022-08-31T15:29:55.417+0800	INFO	controller/user.go:92	删除成功
+2022-08-31T15:31:24.094+0800	INFO	dao/user.go:88	删除成功
+2022-08-31T15:31:24.095+0800	INFO	controller/user.go:92	删除成功
+2022-08-31T15:32:54.887+0800	INFO	controller/user.go:46	数据获取错误
+2022-08-31T15:32:54.887+0800	INFO	middlewares/middleware.go:31	/v1/user/getuser	{"status": 400, "method": "GET", "path": "/v1/user/getuser", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "126.2µs"}
+2022-08-31T15:34:27.777+0800	INFO	dao/user.go:69	查询成功
+2022-08-31T15:38:21.034+0800	INFO	dao/user.go:110	修改成功
+2022-08-31T15:38:21.035+0800	INFO	controller/user.go:112	用户修改成功
+2022-08-31T15:42:59.409+0800	INFO	dao/user.go:110	修改成功
+2022-08-31T15:42:59.410+0800	INFO	controller/user.go:120	用户修改成功
+2022-08-31T15:49:18.711+0800	INFO	dao/user.go:69	查询成功

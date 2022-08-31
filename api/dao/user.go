@@ -91,6 +91,7 @@ func DeleteUser(username string) (bool, string) {
 	}
 }
 
+// 结构体要符合表字段
 type User struct {
 	Username string
 	Password string
@@ -103,9 +104,8 @@ func UpdateUser(username string, password string) (bool, string) {
 		Password: password,
 	}
 
-	//  UPDATE `foods` SET `price` = '120', `title` = '柠檬雪碧'  WHERE `foods`.`id` = '2'
-	response := global.DB.Model(&User{}).Where("username > ?", username).Updates(&updataFood)
-	// Model(&user).Where("username = ?", username).Update(password, username)
+	// 根据条件进行更新
+	response := global.DB.Model(&User{}).Where("username = ?", username).Updates(&updataFood)
 	fmt.Println(response.RowsAffected)
 	zap.L().Info("修改成功")
 	return true, "修改成功"

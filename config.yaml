@@ -17,4 +17,4 @@ redis:
   password: ""
   db: 01
 jwt:
-  key: "sGt"
+  key: ""

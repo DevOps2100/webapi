@@ -7,7 +7,13 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
+	"golang.org/x/crypto/bcrypt"
 )
+
+func GeneratePassword(password string) string {
+	result, _ := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
+	return string(result)
+}
 
 // 用户添加
 func UserAdd(ctx *gin.Context) {
@@ -19,6 +25,16 @@ func UserAdd(ctx *gin.Context) {
 		})
 		return
 	} else {
+		if user.Username == "" || user.Password == "" {
+			zap.L().Info("数据格式错误")
+			ctx.JSON(400, gin.H{
+				"msg": "error",
+			})
+			return
+		}
+		result := GeneratePassword(user.Password)
+		// fmt.Println("加密密码:", string(result))
+		user.Password = string(result)
 		response := dao.AddUser(&user)
 		fmt.Println(response)
 		zap.L().Info(response)
@@ -96,7 +112,10 @@ func UpdateUser(ctx *gin.Context) {
 		})
 		return
 	}
-	ok, response := dao.UpdateUser(user.Username, user.Password)
+
+	// 密码加密
+	password := GeneratePassword(user.Password)
+	ok, response := dao.UpdateUser(user.Username, password)
 	if ok {
 		zap.L().Info("用户修改成功")
 		ctx.JSON(200, gin.H{
