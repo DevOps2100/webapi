@@ -20,4 +20,4 @@ The WebApi is a open source RESTFUL http Project.
 
 ## Licensing
 
-See: [License (Apache-2.0)]([https://github.com/DevOps2100/webapi/blob/master/LICENSE])
+See: [License (Apache-2.0)](![https://github.com/DevOps2100/webapi/blob/master/LICENSE])
