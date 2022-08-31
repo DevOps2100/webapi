@@ -8,7 +8,7 @@ Using components
 - Kafka
 
 
-The WebApi is a open source RESTFUL http And Simple open using a Project.
+The WebApi is a open source RESTFUL http And  open using Simple a Project.
 
 
 
