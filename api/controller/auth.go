@@ -24,15 +24,17 @@ func Login(ctx *gin.Context) {
 		ctx.JSON(401, gin.H{
 			"msg": "格式错误",
 		})
+		fmt.Println("原始数据： ", user)
 		return
 	}
+
 	model := dao.GetUserByUsername(user.Username)
 	fmt.Println("用户信息: ", model.Username, model.Password)
 	err := bcrypt.CompareHashAndPassword([]byte(model.Password), []byte(user.Password))
 	if err != nil {
 		fmt.Println("对比错误： ", err)
 		ctx.JSON(401, gin.H{
-			"msg": "AuthError",
+			"msg": "密码错误",
 		})
 	} else {
 		expires, token, _ := middlewares.GenToken(user.Username)
