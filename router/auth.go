@@ -11,5 +11,6 @@ func AuthRouter(Router *gin.RouterGroup) {
 	Auth := Router.Group("auth")
 	{
 		Auth.POST("login", controller.Login)
+		Auth.POST("logout", controller.Logout)
 	}
 }

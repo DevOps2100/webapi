@@ -49,3 +49,10 @@ func Login(ctx *gin.Context) {
 		return
 	}
 }
+
+// 用户登录
+func Logout(ctx *gin.Context) {
+	ctx.JSON(200, gin.H{
+		"msg": "success",
+	})
+}
