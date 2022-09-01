@@ -1,7 +1,6 @@
 name: "webapi"
 port: 51000
 logsAddress: "./logs/"
-
 mysql:
   username: "root"
   host: ""
@@ -10,7 +9,6 @@ mysql:
   dbname: "webapi"
   SetMaxOpenConns: 50
   SetMaxIdleConns: 100
-
 redis:
   host: ""
   port: 6379
