@@ -1,0 +1,130 @@
+2022-09-05T11:23:40.244+0800	INFO	middlewares/middleware.go:31	/v1/user/add	{"status": 401, "method": "POST", "path": "/v1/user/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "391.1µs"}
+2022-09-05T11:23:46.218+0800	INFO	dao/user.go:36	用户已存在
+2022-09-05T11:23:46.218+0800	INFO	controller/user.go:41	用户已存在
+2022-09-05T11:24:02.338+0800	ERROR	dao/user.go:41	用户添加失败
+webapi/api/dao.AddUser
+	E:/后端开发/Go语言/webapi/api/dao/user.go:41
+webapi/api/controller.UserAdd
+	E:/后端开发/Go语言/webapi/api/controller/user.go:39
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.JWTAuth.func1
+	E:/后端开发/Go语言/webapi/middlewares/jwt.go:88
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.Cors.func1
+	E:/后端开发/Go语言/webapi/middlewares/cors.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-09-05T11:24:02.340+0800	INFO	controller/user.go:41	添加失败
+2022-09-05T11:24:45.449+0800	INFO	dao/user.go:44	用户添加成功
+2022-09-05T11:24:45.450+0800	INFO	controller/user.go:41	添加成功
+2022-09-05T11:25:34.235+0800	INFO	dao/user.go:36	用户已存在
+2022-09-05T11:25:34.235+0800	INFO	controller/user.go:41	用户已存在
+2022-09-05T11:25:37.322+0800	INFO	dao/user.go:44	用户添加成功
+2022-09-05T11:25:37.323+0800	INFO	controller/user.go:41	添加成功
+2022-09-05T11:25:38.540+0800	INFO	dao/user.go:36	用户已存在
+2022-09-05T11:25:38.540+0800	INFO	controller/user.go:41	用户已存在
+2022-09-05T11:25:41.933+0800	INFO	dao/user.go:44	用户添加成功
+2022-09-05T11:25:41.934+0800	INFO	controller/user.go:41	添加成功
+2022-09-05T11:27:35.359+0800	INFO	middlewares/middleware.go:31	/v1/user/delete	{"status": 401, "method": "POST", "path": "/v1/user/delete", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "427.9µs"}
+2022-09-05T11:27:38.599+0800	INFO	dao/user.go:84	用户不存在,无法执行删除动作
+2022-09-05T11:27:38.599+0800	INFO	controller/user.go:101	用户不存在
+2022-09-05T11:27:49.702+0800	INFO	dao/user.go:92	删除成功
+2022-09-05T11:27:49.703+0800	INFO	controller/user.go:101	删除成功
+2022-09-05T11:27:58.856+0800	INFO	dao/user.go:92	删除成功
+2022-09-05T11:27:58.857+0800	INFO	controller/user.go:101	删除成功
+2022-09-05T11:28:25.683+0800	INFO	middlewares/middleware.go:31	/v1/user/get	{"status": 404, "method": "GET", "path": "/v1/user/get", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "271.6µs"}
+2022-09-05T11:28:57.247+0800	ERROR	middlewares/middleware.go:75	[Recovery from panic]	{"error": "runtime error: invalid memory address or nil pointer dereference", "request": "POST /v1/user/get HTTP/1.1\r\nHost: 127.0.0.1:51000\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nConnection: keep-alive\r\nContent-Length: 28\r\nContent-Type: application/json\r\nToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imx4IiwiZXhwIjoxNjYyMzU1Mzg5LCJpc3MiOiJ3ZWJhcGkifQ.G-5y9axONqy4ijw3aBGXXzpO6l5qzW3lpj00u9j0xGU\r\nUser-Agent: apifox/1.0.0 (https://www.apifox.cn)\r\n\r\n", "stack": "goroutine 13 [running]:\nruntime/debug.Stack()\n\tC:/Program Files/Go/src/runtime/debug/stack.go:24 +0x65\nwebapi/middlewares.GinRecovery.func1.1()\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:78 +0x2da\npanic({0x129fa00, 0x185b090})\n\tC:/Program Files/Go/src/runtime/panic.go:838 +0x207\ndatabase/sql.(*Row).Scan(0xc000503470?, {0xc0004fb140?, 0xc000120630?, 0x0?})\n\tC:/Program Files/Go/src/database/sql/sql.go:3350 +0x34\nwebapi/api/dao.UserCheckIsExistUserName({0xc0001ab0d8, 0x5})\n\tE:/后端开发/Go语言/webapi/api/dao/user.go:16 +0xfc\nwebapi/api/dao.GetUser({0xc0001ab0d8, 0x5})\n\tE:/后端开发/Go语言/webapi/api/dao/user.go:52 +0x45\nwebapi/api/controller.GetUser(0xc000236300?)\n\tE:/后端开发/Go语言/webapi/api/controller/user.go:61 +0x2b4\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.JWTAuth.func1(0xc000236300)\n\tE:/后端开发/Go语言/webapi/middlewares/jwt.go:88 +0x328\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.Cors.func1(0xc000236300)\n\tE:/后端开发/Go语言/webapi/middlewares/cors.go:27 +0x174\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.GinRecovery.func1(0xc000236300)\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:89 +0x76\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.GinLogger.func1(0xc000236300)\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:25 +0xa2\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000236300)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 +0x82\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000236300)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 +0xe7\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00050d860, 0xc000236300)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 +0x671\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00050d860, {0x1462b58?, 0xc0002327e0}, 0xc000236800)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 +0x1dd\nnet/http.serverHandler.ServeHTTP({0x1461598?}, {0x1462b58, 0xc0002327e0}, 0xc000236800)\n\tC:/Program Files/Go/src/net/http/server.go:2916 +0x43b\nnet/http.(*conn).serve(0xc00002f360, {0x14634d8, 0xc000109ce0})\n\tC:/Program Files/Go/src/net/http/server.go:1966 +0x5d7\ncreated by net/http.(*Server).Serve\n\tC:/Program Files/Go/src/net/http/server.go:3071 +0x4db\n"}
+webapi/middlewares.GinRecovery.func1.1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:75
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:838
+runtime.panicmem
+	C:/Program Files/Go/src/runtime/panic.go:220
+runtime.sigpanic
+	C:/Program Files/Go/src/runtime/signal_windows.go:255
+database/sql.(*Row).Scan
+	C:/Program Files/Go/src/database/sql/sql.go:3350
+webapi/api/dao.UserCheckIsExistUserName
+	E:/后端开发/Go语言/webapi/api/dao/user.go:16
+webapi/api/dao.GetUser
+	E:/后端开发/Go语言/webapi/api/dao/user.go:52
+webapi/api/controller.GetUser
+	E:/后端开发/Go语言/webapi/api/controller/user.go:61
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.JWTAuth.func1
+	E:/后端开发/Go语言/webapi/middlewares/jwt.go:88
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.Cors.func1
+	E:/后端开发/Go语言/webapi/middlewares/cors.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-09-05T11:28:57.250+0800	INFO	middlewares/middleware.go:31	/v1/user/get	{"status": 500, "method": "POST", "path": "/v1/user/get", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "19.1623106s"}
+2022-09-05T11:30:21.218+0800	INFO	dao/user.go:73	查询成功
+2022-09-05T11:30:45.154+0800	INFO	middlewares/middleware.go:31	/v1/user/update	{"status": 401, "method": "POST", "path": "/v1/user/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "544.7µs"}
+2022-09-05T11:30:50.633+0800	INFO	dao/user.go:114	修改成功
+2022-09-05T11:30:50.633+0800	INFO	controller/user.go:124	用户修改成功
+2022-09-05T11:30:56.120+0800	INFO	dao/user.go:114	修改成功
+2022-09-05T11:30:56.120+0800	INFO	controller/user.go:124	用户修改成功
+2022-09-05T11:31:10.969+0800	INFO	controller/user.go:113	用户数据错误
+2022-09-05T11:38:18.344+0800	INFO	controller/user.go:113	用户数据错误
+2022-09-05T11:39:23.132+0800	INFO	dao/user.go:120	修改成功
+2022-09-05T11:39:23.132+0800	INFO	controller/user.go:124	用户修改成功
+2022-09-05T11:39:33.447+0800	INFO	dao/user.go:120	修改成功
+2022-09-05T11:39:33.447+0800	INFO	controller/user.go:124	用户修改成功
+2022-09-05T11:39:38.662+0800	INFO	dao/user.go:120	修改成功
+2022-09-05T11:39:38.662+0800	INFO	controller/user.go:124	用户修改成功
+2022-09-05T11:40:44.760+0800	INFO	dao/user.go:120	修改成功
+2022-09-05T11:40:44.760+0800	INFO	controller/user.go:124	用户修改成功
+2022-09-05T15:26:56.584+0800	INFO	middlewares/middleware.go:31	/v1/user/update	{"status": 401, "method": "POST", "path": "/v1/user/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "521.5µs"}

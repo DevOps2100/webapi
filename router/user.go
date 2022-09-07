@@ -12,7 +12,7 @@ func UserRouter(Router *gin.RouterGroup) {
 	User := Router.Group("user")
 	{
 		User.POST("add", middlewares.JWTAuth(), controller.UserAdd)
-		User.GET("get", middlewares.JWTAuth(), controller.GetUser)
+		User.POST("get", middlewares.JWTAuth(), controller.GetUser)
 		User.GET("getall", middlewares.JWTAuth(), controller.GetUserAll)
 		User.POST("delete", middlewares.JWTAuth(), controller.DeleteUser)
 		User.POST("update", middlewares.JWTAuth(), controller.UpdateUser)

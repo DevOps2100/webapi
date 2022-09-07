@@ -26,6 +26,10 @@ func AddUser(User *forms.UserAddForm) string {
 	var user models.User
 	user.Username = User.Username
 	user.Password = User.Password
+	user.Role = User.Role
+	user.PhoneNumber = User.PhoneNumber
+	user.Avatar = User.AvaTar
+
 	// 先查询用户是否存在，存在则返回存在
 	ok, response := UserCheckIsExistUserName(user.Username)
 	if !ok {
@@ -93,19 +97,25 @@ func DeleteUser(username string) (bool, string) {
 
 // 结构体要符合表字段
 type User struct {
-	Username string
-	Password string
+	Username    string
+	Password    string
+	Role        string
+	PhoneNumber string
+	Avatar      string
 }
 
 // 用户修改
-func UpdateUser(username string, password string) (bool, string) {
+func UpdateUser(user forms.UserAddForm) (bool, string) {
 	updataFood := User{
-		Username: username,
-		Password: password,
+		Username:    user.Username,
+		Password:    user.Password,
+		Role:        user.Role,
+		PhoneNumber: user.PhoneNumber,
+		Avatar:      user.AvaTar,
 	}
 
 	// 根据条件进行更新
-	response := global.DB.Model(&User{}).Where("username = ?", username).Updates(&updataFood)
+	response := global.DB.Model(&User{}).Where("username = ?", user.Username).Updates(&updataFood)
 	fmt.Println(response.RowsAffected)
 	zap.L().Info("修改成功")
 	return true, "修改成功"

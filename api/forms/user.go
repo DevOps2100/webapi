@@ -7,8 +7,11 @@ package forms
 */
 
 type UserAddForm struct {
-	Username string `form:"username" json:"username"`
-	Password string `form:"password" json:"password"`
+	Username    string `form:"username" json:"username"`         // 用户
+	Password    string `form:"password" json:"password"`         // 密码
+	Role        string `form:"role" json:"role"`                 // 角色
+	PhoneNumber string `form:"phone_number" json:"phone_number"` // 手机号
+	AvaTar      string `form:"vavtar" json:"vavtar"`             // 头像
 }
 
 type UserListAllForm struct {
