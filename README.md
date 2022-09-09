@@ -1,23 +1,12 @@
-# The WebApi True open source
+# webapi
+以go语言为主的webapi写法
 
-Using components
-- Gin
-- Gorm
-- Mysql
-- Redis
-- Kafka
-
-
-The WebApi is a open source RESTFUL http and simple Project.
-
+技术栈
+- gin
+- gorm
+- mysql
+- redis
+- kafka
+- dockerfile
 
 
-## Current Version - 0.1
-
-* 基础功能完善
-
-
-
-## Licensing
-
-See: [License (Apache-2.0)](![https://github.com/DevOps2100/webapi/blob/master/LICENSE])

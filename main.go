@@ -12,6 +12,7 @@ import (
 
 // 基于restful风格进行构造
 func main() {
+	fmt.Println("webapi技巧与方法")
 	// 配置初始化
 	initialize.InitConfig()
 	// MYSQL数据库初始化

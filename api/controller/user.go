@@ -2,7 +2,6 @@ package controller
 
 import (
 	"fmt"
-	"strings"
 	"webapi/api/dao"
 	"webapi/api/forms"
 
@@ -55,10 +54,7 @@ func GetUser(ctx *gin.Context) {
 		})
 		return
 	} else {
-		username := strings.Trim(user.Username, "\"")
-		fmt.Println("请求数据： ", user.Username)
-		fmt.Println("请求数据： ", username)
-		response, str := dao.GetUser(username)
+		response, str := dao.GetUser(user.Username)
 		if str == "用户不存在" {
 			ctx.JSON(200, gin.H{
 				"msg": str,
@@ -108,7 +104,7 @@ func DeleteUser(ctx *gin.Context) {
 
 // 用户修改
 func UpdateUser(ctx *gin.Context) {
-	var user forms.UserAddForm
+	var user forms.UserInfo
 	if err := ctx.BindJSON(&user); err != nil {
 		zap.L().Info("用户数据错误")
 		ctx.JSON(200, gin.H{
@@ -118,8 +114,8 @@ func UpdateUser(ctx *gin.Context) {
 	}
 
 	// 密码加密
-	user.Password = GeneratePassword(user.Password)
-	ok, response := dao.UpdateUser(user)
+	password := GeneratePassword(user.Password)
+	ok, response := dao.UpdateUser(user.Username, password)
 	if ok {
 		zap.L().Info("用户修改成功")
 		ctx.JSON(200, gin.H{
