@@ -1,0 +1,110 @@
+2022-09-13T17:47:19.123+0800	ERROR	middlewares/middleware.go:75	[Recovery from panic]	{"error": "runtime error: invalid memory address or nil pointer dereference", "request": "POST /v1/data/add HTTP/1.1\r\nHost: 127.0.0.1:51000\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nConnection: keep-alive\r\nContent-Length: 162\r\nContent-Type: application/json\r\nToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imx4IiwiZXhwIjoxNjYzMDY5NDAyLCJpc3MiOiJ3ZWJhcGkifQ.iQAI-Qkzw-2PNadPd1_F_XNVYcJfgesepSlgx0x-lBA\r\nUser-Agent: apifox/1.0.0 (https://www.apifox.cn)\r\n\r\n", "stack": "goroutine 10 [running]:\nruntime/debug.Stack()\n\tC:/Program Files/Go/src/runtime/debug/stack.go:24 +0x65\nwebapi/middlewares.GinRecovery.func1.1()\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:78 +0x2da\npanic({0x1180b80, 0x173d090})\n\tC:/Program Files/Go/src/runtime/panic.go:838 +0x207\ndatabase/sql.(*Row).Scan(0xc0001086f0?, {0xc0004f5198?, 0xc0000043f0?, 0x0?})\n\tC:/Program Files/Go/src/database/sql/sql.go:3350 +0x34\nwebapi/api/dao.CheckExist({0xc000502a78, 0x4})\n\tE:/后端开发/Go语言/webapi/api/dao/data.go:13 +0xf3\nwebapi/api/dao.DataAdd({0x0, {0xc000502a78, 0x4}, {0xc000502a80, 0x5}, {0xc000502a85, 0x9}, {0xc000502a90, 0x5}, {0xc000502a96, ...}, ...})\n\tE:/后端开发/Go语言/webapi/api/dao/data.go:30 +0x13a\nwebapi/api/controller.DataAdd(0xc000234300?)\n\tE:/后端开发/Go语言/webapi/api/controller/data.go:19 +0x178\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.JWTAuth.func1(0xc000234300)\n\tE:/后端开发/Go语言/webapi/middlewares/jwt.go:88 +0x328\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.Cors.func1(0xc000234300)\n\tE:/后端开发/Go语言/webapi/middlewares/cors.go:27 +0x174\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.GinRecovery.func1(0xc000234300)\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:89 +0x76\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.GinLogger.func1(0xc000234300)\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:25 +0xa2\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000234300)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 +0x82\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000234300)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 +0xe7\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000105380, 0xc000234300)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 +0x671\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000105380, {0x1344218?, 0xc000230460}, 0xc000234100)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 +0x1dd\nnet/http.serverHandler.ServeHTTP({0x1342c58?}, {0x1344218, 0xc000230460}, 0xc000234100)\n\tC:/Program Files/Go/src/net/http/server.go:2916 +0x43b\nnet/http.(*conn).serve(0xc00019e140, {0x1344b98, 0xc0007026f0})\n\tC:/Program Files/Go/src/net/http/server.go:1966 +0x5d7\ncreated by net/http.(*Server).Serve\n\tC:/Program Files/Go/src/net/http/server.go:3071 +0x4db\n"}
+webapi/middlewares.GinRecovery.func1.1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:75
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:838
+runtime.panicmem
+	C:/Program Files/Go/src/runtime/panic.go:220
+runtime.sigpanic
+	C:/Program Files/Go/src/runtime/signal_windows.go:255
+database/sql.(*Row).Scan
+	C:/Program Files/Go/src/database/sql/sql.go:3350
+webapi/api/dao.CheckExist
+	E:/后端开发/Go语言/webapi/api/dao/data.go:13
+webapi/api/dao.DataAdd
+	E:/后端开发/Go语言/webapi/api/dao/data.go:30
+webapi/api/controller.DataAdd
+	E:/后端开发/Go语言/webapi/api/controller/data.go:19
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.JWTAuth.func1
+	E:/后端开发/Go语言/webapi/middlewares/jwt.go:88
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.Cors.func1
+	E:/后端开发/Go语言/webapi/middlewares/cors.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-09-13T17:47:19.126+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 500, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "15.0004ms"}
+2022-09-13T17:48:24.287+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "78.2484ms"}
+2022-09-13T17:49:13.757+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "71.3863ms"}
+2022-09-13T17:50:03.600+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "78.2681ms"}
+2022-09-13T17:52:47.582+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "40.7941ms"}
+2022-09-13T17:52:50.429+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "47.0189ms"}
+2022-09-13T17:52:51.703+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "40.4244ms"}
+2022-09-13T17:53:35.660+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "44.6672ms"}
+2022-09-13T17:54:10.003+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "44.4819ms"}
+2022-09-13T17:58:23.878+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "36.7869ms"}
+2022-09-13T18:00:02.868+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "44.3274ms"}
+2022-09-13T18:00:13.102+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "78.2441ms"}
+2022-09-13T18:00:16.970+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "77.691ms"}
+2022-09-13T18:00:21.267+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "78.4657ms"}
+2022-09-13T18:01:22.343+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "74.7243ms"}
+2022-09-13T18:02:35.570+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "90.6273ms"}
+2022-09-13T18:02:52.121+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "97.9125ms"}
+2022-09-13T18:05:02.729+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "46.0103ms"}
+2022-09-13T18:05:04.135+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "45.3618ms"}
+2022-09-13T18:05:25.792+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "45.1295ms"}
+2022-09-13T18:05:28.265+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "47.1138ms"}
+2022-09-13T18:05:29.158+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "45.4942ms"}
+2022-09-13T18:05:29.996+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "45.3488ms"}
+2022-09-13T18:05:37.397+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "46.3345ms"}
+2022-09-13T18:05:39.262+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "43.9228ms"}
+2022-09-13T18:05:40.213+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "43.4452ms"}
+2022-09-13T18:09:40.295+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "43.2541ms"}
+2022-09-13T18:09:45.927+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "43.8568ms"}
+2022-09-13T18:10:57.064+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "44.6787ms"}
+2022-09-13T18:10:58.553+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "44.4689ms"}
+2022-09-13T18:11:04.881+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "95.2625ms"}
+2022-09-13T18:11:07.366+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "91.5608ms"}
+2022-09-13T18:11:18.415+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "91.358ms"}
+2022-09-13T18:12:06.585+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "45.091ms"}
+2022-09-13T18:12:15.542+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "44.6041ms"}
+2022-09-13T18:13:09.431+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "45.6602ms"}
+2022-09-13T18:13:11.389+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "44.7684ms"}
+2022-09-13T18:14:17.550+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "89.5524ms"}
+2022-09-13T18:15:39.101+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "90.5422ms"}
+2022-09-13T18:15:45.794+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "91.0781ms"}
+2022-09-13T18:15:47.035+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "91.3222ms"}
+2022-09-13T18:16:57.376+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "91.5538ms"}
+2022-09-13T18:18:55.504+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "90.9271ms"}
+2022-09-13T18:20:18.638+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "87.8942ms"}
+2022-09-13T18:20:27.296+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "85.3734ms"}
+2022-09-13T18:20:43.181+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "83.0549ms"}
+2022-09-13T18:21:55.833+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "91.4685ms"}
+2022-09-13T18:21:59.489+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "90.1468ms"}
+2022-09-13T18:22:00.512+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "93.7224ms"}
+2022-09-13T18:22:02.659+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "94.467ms"}
+2022-09-13T18:23:46.692+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "100.3336ms"}
+2022-09-13T18:24:00.763+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "99.3113ms"}
+2022-09-13T18:24:33.065+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "45.2321ms"}
+2022-09-13T18:25:40.594+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "46.4729ms"}
+2022-09-13T18:27:00.707+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "41.7362ms"}
+2022-09-13T18:27:31.531+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "82.6249ms"}
+2022-09-13T18:28:24.291+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "84.1578ms"}
+2022-09-13T18:28:29.690+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "84.0671ms"}
+2022-09-13T18:30:14.564+0800	INFO	middlewares/middleware.go:31	/v1/data/update	{"status": 400, "method": "POST", "path": "/v1/data/update", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "40.6384ms"}

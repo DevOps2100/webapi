@@ -30,6 +30,7 @@ func Routers() *gin.Engine {
 	ApiGroup := Router.Group("/v1/")
 	router.UserRouter(ApiGroup)
 	router.AuthRouter(ApiGroup)
+	router.DataRouter(ApiGroup)
 	color.Green("路由初始化成功")
 	return Router
 }
