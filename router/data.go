@@ -12,7 +12,7 @@ func DataRouter(Router *gin.RouterGroup) {
 	User := Router.Group("data")
 	{
 		User.POST("add", middlewares.JWTAuth(), controller.DataAdd)
-		User.GET("get", middlewares.JWTAuth(), controller.DataGet)
+		User.POST("get", middlewares.JWTAuth(), controller.DataGet)
 		User.POST("delete", middlewares.JWTAuth(), controller.DataDel)
 		User.POST("update", middlewares.JWTAuth(), controller.DataUpdate)
 	}

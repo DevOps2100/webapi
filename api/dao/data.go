@@ -28,7 +28,7 @@ func DataAdd(INFO forms.Data) (bool, string) {
 	info.Username = INFO.Username
 	info.Passwd = INFO.Passwd
 	info.DatabaseType = INFO.DatabaseType
-	if ok, response := CheckExist(INFO.Name); ok {
+	if ok, response := CheckExist(INFO.Name); !ok {
 		// 开始添加数据信息
 		result := global.DB.Create(&info)
 		if result.Error != nil {
@@ -36,7 +36,6 @@ func DataAdd(INFO forms.Data) (bool, string) {
 			return false, response
 		}
 		return true, "添加成功"
-
 	} else {
 		return false, response
 	}
