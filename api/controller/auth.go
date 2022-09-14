@@ -16,6 +16,13 @@ type GenTokenInfo struct {
 	ExpiresAt int64
 }
 
+// @Summary 用户登陆
+// @Tags 登陆认证
+// @Produce application/json
+// @Accept application/json
+// @Param  forms.LoginForm body forms.LoginForm true "登陆信息"
+// @Success 200
+// @Router /v1/auth/login [post]
 // 用户登录
 func Login(ctx *gin.Context) {
 	var user forms.LoginForm
@@ -50,7 +57,13 @@ func Login(ctx *gin.Context) {
 	}
 }
 
-// 用户登录
+// @Summary 退出登陆
+// @Tags 登陆认证
+// @Produce application/json
+// @Accept application/json
+// @Success 200
+// @Router /v1/auth/logout [post]
+// 用户退出登录
 func Logout(ctx *gin.Context) {
 	ctx.JSON(200, gin.H{
 		"msg": "success",

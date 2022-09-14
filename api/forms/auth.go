@@ -7,8 +7,6 @@ package forms
 */
 
 type LoginForm struct {
-	Username string `form:"username" x-www-form-urlencoded:"username"  json:"username" binding:"required"`
-	// 密码  binding:"required"为必填字段,长度大于3小于20
 	Password string `form:"password" x-www-form-urlencoded:"password"  json:"password"`
-	// binding:"required,min=3,max=48"
+	Username string `form:"username" x-www-form-urlencoded:"username"  json:"username" binding:"required"`
 }
