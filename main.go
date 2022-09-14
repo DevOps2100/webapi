@@ -27,6 +27,7 @@ func main() {
 	}
 	// 日志配置初始化
 	initialize.InitLogger()
+
 	// 路由配置初始化
 	Router := initialize.Routers()
 	color.Green("启动成功")

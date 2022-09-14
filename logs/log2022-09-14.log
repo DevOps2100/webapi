@@ -1,0 +1,242 @@
+2022-09-14T10:26:09.487+0800	INFO	middlewares/middleware.go:31	/v1/data/delete	{"status": 400, "method": "POST", "path": "/v1/data/delete", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "49.4298ms"}
+2022-09-14T10:28:15.408+0800	INFO	middlewares/middleware.go:31	/v1/data/get	{"status": 400, "method": "GET", "path": "/v1/data/get", "query": "", "ip": "127.0.0.1", "user-agent": "apifox/1.0.0 (https://www.apifox.cn)", "errors": "", "cost": "47.99ms"}
+2022-09-14T11:51:25.781+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "20.9989ms"}
+2022-09-14T11:51:39.190+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "21.3906ms"}
+2022-09-14T11:52:07.542+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "22.5243ms"}
+2022-09-14T11:52:18.118+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "21.9404ms"}
+2022-09-14T11:53:07.202+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "22.9973ms"}
+2022-09-14T11:53:34.185+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "22.4103ms"}
+2022-09-14T11:54:24.846+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "22.0545ms"}
+2022-09-14T11:54:29.113+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "20.9986ms"}
+2022-09-14T12:39:30.358+0800	INFO	middlewares/middleware.go:31	/v1/host/add	{"status": 404, "method": "POST", "path": "/v1/host/add", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "879.2µs"}
+2022-09-14T14:06:53.297+0800	INFO	middlewares/middleware.go:31	/v1/host/add	{"status": 404, "method": "POST", "path": "/v1/host/add", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "88.1µs"}
+2022-09-14T14:08:00.024+0800	INFO	middlewares/middleware.go:31	/v1/host/add	{"status": 404, "method": "POST", "path": "/v1/host/add", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "0s"}
+2022-09-14T14:08:13.657+0800	INFO	middlewares/middleware.go:31	/v1/host/add	{"status": 404, "method": "POST", "path": "/v1/host/add", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "453.2µs"}
+2022-09-14T14:09:13.071+0800	INFO	middlewares/middleware.go:31	/v1/host/add	{"status": 401, "method": "POST", "path": "/v1/host/add", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "0s"}
+2022-09-14T14:11:26.513+0800	INFO	controller/auth.go:30	login error: 	{"error": "EOF"}
+2022-09-14T14:11:26.514+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "1.0485ms"}
+2022-09-14T14:11:28.165+0800	INFO	controller/auth.go:30	login error: 	{"error": "EOF"}
+2022-09-14T14:11:28.165+0800	INFO	middlewares/middleware.go:31	/v1/auth/login	{"status": 401, "method": "POST", "path": "/v1/auth/login", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "507.8µs"}
+2022-09-14T14:39:42.774+0800	INFO	middlewares/middleware.go:31	/v1/user/get	{"status": 404, "method": "POST", "path": "/v1/user/get", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "382.2µs"}
+2022-09-14T14:49:47.184+0800	INFO	middlewares/middleware.go:31	/v1/data/add	{"status": 400, "method": "POST", "path": "/v1/data/add", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "47.8097ms"}
+2022-09-14T14:56:25.418+0800	ERROR	middlewares/middleware.go:75	[Recovery from panic]	{"error": "runtime error: invalid memory address or nil pointer dereference", "request": "POST /v1/host/add HTTP/1.1\r\nHost: 127.0.0.1:51000\r\nAccept: application/json\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: zh-CN,zh;q=0.9\r\nConnection: keep-alive\r\nContent-Length: 93\r\nContent-Type: application/json\r\nCookie: csrf_token=wCBQlaN2Ptqgd2PXXFe2p5VnnpaOo/i3vBA0T5/6eus=\r\nOrigin: http://127.0.0.1:51000\r\nReferer: http://127.0.0.1:51000/swagger/index.html\r\nSec-Ch-Ua: \"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Ch-Ua-Platform: \"Windows\"\r\nSec-Fetch-Dest: empty\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Site: same-origin\r\nToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imx4IiwiZXhwIjoxNjYzMTQ1MzQ5LCJpc3MiOiJ3ZWJhcGkifQ.UuziFV8KgYzzZO2IHtz_q0EavGo-om6o1hMvoB7mR4Q\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\r\n\r\n", "stack": "goroutine 33 [running]:\nruntime/debug.Stack()\n\tC:/Program Files/Go/src/runtime/debug/stack.go:24 +0x65\nwebapi/middlewares.GinRecovery.func1.1()\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:78 +0x2da\npanic({0x10ff020, 0x1fc8e60})\n\tC:/Program Files/Go/src/runtime/panic.go:838 +0x207\ndatabase/sql.(*Row).Scan(0xc0001b7b60?, {0xc0004e71c8?, 0xc000004420?, 0x0?})\n\tC:/Program Files/Go/src/database/sql/sql.go:3350 +0x34\nwebapi/api/dao.CheckExistHost({0xc00053ea30, 0x6})\n\tE:/后端开发/Go语言/webapi/api/dao/host.go:13 +0xf3\nwebapi/api/dao.AddHost({{0xc00053ea30, 0x6}, {0xc00053e9b0, 0x6}, {0xc00053ea36, 0x6}, {0xc00053e9b6, 0x6}})\n\tE:/后端开发/Go语言/webapi/api/dao/host.go:23 +0xaa\nwebapi/api/controller.AddHost(0xc00051e300?)\n\tE:/后端开发/Go语言/webapi/api/controller/host.go:31 +0x197\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.JWTAuth.func1(0xc00051e300)\n\tE:/后端开发/Go语言/webapi/middlewares/jwt.go:88 +0x328\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.Cors.func1(0xc00051e300)\n\tE:/后端开发/Go语言/webapi/middlewares/cors.go:27 +0x174\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.GinRecovery.func1(0xc00051e300)\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:89 +0x76\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.GinLogger.func1(0xc00051e300)\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:25 +0xa2\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc00051e300)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 +0x82\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xc00051e300)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 +0xe7\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000605040, 0xc00051e300)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 +0x671\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000605040, {0x12fbfc8?, 0xc000242460}, 0xc00051e200)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 +0x1dd\nnet/http.serverHandler.ServeHTTP({0x12f9ff0?}, {0x12fbfc8, 0xc000242460}, 0xc00051e200)\n\tC:/Program Files/Go/src/net/http/server.go:2916 +0x43b\nnet/http.(*conn).serve(0xc0001bc0a0, {0x12fca18, 0xc0001b7440})\n\tC:/Program Files/Go/src/net/http/server.go:1966 +0x5d7\ncreated by net/http.(*Server).Serve\n\tC:/Program Files/Go/src/net/http/server.go:3071 +0x4db\n"}
+webapi/middlewares.GinRecovery.func1.1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:75
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:838
+runtime.panicmem
+	C:/Program Files/Go/src/runtime/panic.go:220
+runtime.sigpanic
+	C:/Program Files/Go/src/runtime/signal_windows.go:255
+database/sql.(*Row).Scan
+	C:/Program Files/Go/src/database/sql/sql.go:3350
+webapi/api/dao.CheckExistHost
+	E:/后端开发/Go语言/webapi/api/dao/host.go:13
+webapi/api/dao.AddHost
+	E:/后端开发/Go语言/webapi/api/dao/host.go:23
+webapi/api/controller.AddHost
+	E:/后端开发/Go语言/webapi/api/controller/host.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.JWTAuth.func1
+	E:/后端开发/Go语言/webapi/middlewares/jwt.go:88
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.Cors.func1
+	E:/后端开发/Go语言/webapi/middlewares/cors.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-09-14T14:56:25.422+0800	INFO	middlewares/middleware.go:31	/v1/host/add	{"status": 500, "method": "POST", "path": "/v1/host/add", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "15.8922ms"}
+2022-09-14T14:56:41.848+0800	ERROR	middlewares/middleware.go:75	[Recovery from panic]	{"error": "runtime error: invalid memory address or nil pointer dereference", "request": "POST /v1/host/add HTTP/1.1\r\nHost: 127.0.0.1:51000\r\nAccept: application/json\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: zh-CN,zh;q=0.9\r\nConnection: keep-alive\r\nContent-Length: 84\r\nContent-Type: application/json\r\nCookie: csrf_token=wCBQlaN2Ptqgd2PXXFe2p5VnnpaOo/i3vBA0T5/6eus=\r\nOrigin: http://127.0.0.1:51000\r\nReferer: http://127.0.0.1:51000/swagger/index.html\r\nSec-Ch-Ua: \"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Ch-Ua-Platform: \"Windows\"\r\nSec-Fetch-Dest: empty\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Site: same-origin\r\nToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imx4IiwiZXhwIjoxNjYzMTQ1MzQ5LCJpc3MiOiJ3ZWJhcGkifQ.UuziFV8KgYzzZO2IHtz_q0EavGo-om6o1hMvoB7mR4Q\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\r\n\r\n", "stack": "goroutine 33 [running]:\nruntime/debug.Stack()\n\tC:/Program Files/Go/src/runtime/debug/stack.go:24 +0x65\nwebapi/middlewares.GinRecovery.func1.1()\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:78 +0x2da\npanic({0x10ff020, 0x1fc8e60})\n\tC:/Program Files/Go/src/runtime/panic.go:838 +0x207\ndatabase/sql.(*Row).Scan(0xc0004aa570?, {0xc0004e71c8?, 0xc0000049c0?, 0x0?})\n\tC:/Program Files/Go/src/database/sql/sql.go:3350 +0x34\nwebapi/api/dao.CheckExistHost({0xc00053f4b0, 0x3})\n\tE:/后端开发/Go语言/webapi/api/dao/host.go:13 +0xf3\nwebapi/api/dao.AddHost({{0xc00053f4b0, 0x3}, {0xc00053f4a8, 0x3}, {0xc00053f4b4, 0x6}, {0xc00053f4ab, 0x3}})\n\tE:/后端开发/Go语言/webapi/api/dao/host.go:23 +0xaa\nwebapi/api/controller.AddHost(0xc00051e300?)\n\tE:/后端开发/Go语言/webapi/api/controller/host.go:31 +0x197\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.JWTAuth.func1(0xc00051e300)\n\tE:/后端开发/Go语言/webapi/middlewares/jwt.go:88 +0x328\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.Cors.func1(0xc00051e300)\n\tE:/后端开发/Go语言/webapi/middlewares/cors.go:27 +0x174\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.GinRecovery.func1(0xc00051e300)\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:89 +0x76\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.GinLogger.func1(0xc00051e300)\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:25 +0xa2\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc00051e300)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 +0x82\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xc00051e300)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 +0xe7\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000605040, 0xc00051e300)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 +0x671\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000605040, {0x12fbfc8?, 0xc000242540}, 0xc00051e400)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 +0x1dd\nnet/http.serverHandler.ServeHTTP({0x12f9ff0?}, {0x12fbfc8, 0xc000242540}, 0xc00051e400)\n\tC:/Program Files/Go/src/net/http/server.go:2916 +0x43b\nnet/http.(*conn).serve(0xc0001bc0a0, {0x12fca18, 0xc0001b7440})\n\tC:/Program Files/Go/src/net/http/server.go:1966 +0x5d7\ncreated by net/http.(*Server).Serve\n\tC:/Program Files/Go/src/net/http/server.go:3071 +0x4db\n"}
+webapi/middlewares.GinRecovery.func1.1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:75
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:838
+runtime.panicmem
+	C:/Program Files/Go/src/runtime/panic.go:220
+runtime.sigpanic
+	C:/Program Files/Go/src/runtime/signal_windows.go:255
+database/sql.(*Row).Scan
+	C:/Program Files/Go/src/database/sql/sql.go:3350
+webapi/api/dao.CheckExistHost
+	E:/后端开发/Go语言/webapi/api/dao/host.go:13
+webapi/api/dao.AddHost
+	E:/后端开发/Go语言/webapi/api/dao/host.go:23
+webapi/api/controller.AddHost
+	E:/后端开发/Go语言/webapi/api/controller/host.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.JWTAuth.func1
+	E:/后端开发/Go语言/webapi/middlewares/jwt.go:88
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.Cors.func1
+	E:/后端开发/Go语言/webapi/middlewares/cors.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-09-14T14:56:41.850+0800	INFO	middlewares/middleware.go:31	/v1/host/add	{"status": 500, "method": "POST", "path": "/v1/host/add", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "16.1161ms"}
+2022-09-14T14:58:15.943+0800	ERROR	middlewares/middleware.go:75	[Recovery from panic]	{"error": "runtime error: invalid memory address or nil pointer dereference", "request": "POST /v1/host/add HTTP/1.1\r\nHost: 127.0.0.1:51000\r\nAccept: application/json\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: zh-CN,zh;q=0.9\r\nConnection: keep-alive\r\nContent-Length: 84\r\nContent-Type: application/json\r\nCookie: csrf_token=wCBQlaN2Ptqgd2PXXFe2p5VnnpaOo/i3vBA0T5/6eus=\r\nOrigin: http://127.0.0.1:51000\r\nReferer: http://127.0.0.1:51000/swagger/index.html\r\nSec-Ch-Ua: \"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Ch-Ua-Platform: \"Windows\"\r\nSec-Fetch-Dest: empty\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Site: same-origin\r\nToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imx4IiwiZXhwIjoxNjYzMTQ1MzQ5LCJpc3MiOiJ3ZWJhcGkifQ.UuziFV8KgYzzZO2IHtz_q0EavGo-om6o1hMvoB7mR4Q\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\r\n\r\n", "stack": "goroutine 33 [running]:\nruntime/debug.Stack()\n\tC:/Program Files/Go/src/runtime/debug/stack.go:24 +0x65\nwebapi/middlewares.GinRecovery.func1.1()\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:78 +0x2da\npanic({0x10ff020, 0x1fc8e60})\n\tC:/Program Files/Go/src/runtime/panic.go:838 +0x207\ndatabase/sql.(*Row).Scan(0xc0004ab6b0?, {0xc0004e71c8?, 0xc000004e28?, 0x0?})\n\tC:/Program Files/Go/src/database/sql/sql.go:3350 +0x34\nwebapi/api/dao.CheckExistHost({0xc00053f610, 0x3})\n\tE:/后端开发/Go语言/webapi/api/dao/host.go:13 +0xf3\nwebapi/api/dao.AddHost({{0xc00053f610, 0x3}, {0xc00053f608, 0x3}, {0xc00053f614, 0x6}, {0xc00053f60b, 0x3}})\n\tE:/后端开发/Go语言/webapi/api/dao/host.go:23 +0xaa\nwebapi/api/controller.AddHost(0xc000246200?)\n\tE:/后端开发/Go语言/webapi/api/controller/host.go:31 +0x197\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.JWTAuth.func1(0xc000246200)\n\tE:/后端开发/Go语言/webapi/middlewares/jwt.go:88 +0x328\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.Cors.func1(0xc000246200)\n\tE:/后端开发/Go语言/webapi/middlewares/cors.go:27 +0x174\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.GinRecovery.func1(0xc000246200)\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:89 +0x76\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.GinLogger.func1(0xc000246200)\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:25 +0xa2\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000246200)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 +0x82\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000246200)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 +0xe7\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000605040, 0xc000246200)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 +0x671\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000605040, {0x12fbfc8?, 0xc0001a0000}, 0xc000246100)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 +0x1dd\nnet/http.serverHandler.ServeHTTP({0x12f9ff0?}, {0x12fbfc8, 0xc0001a0000}, 0xc000246100)\n\tC:/Program Files/Go/src/net/http/server.go:2916 +0x43b\nnet/http.(*conn).serve(0xc0001bc0a0, {0x12fca18, 0xc0001b7440})\n\tC:/Program Files/Go/src/net/http/server.go:1966 +0x5d7\ncreated by net/http.(*Server).Serve\n\tC:/Program Files/Go/src/net/http/server.go:3071 +0x4db\n"}
+webapi/middlewares.GinRecovery.func1.1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:75
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:838
+runtime.panicmem
+	C:/Program Files/Go/src/runtime/panic.go:220
+runtime.sigpanic
+	C:/Program Files/Go/src/runtime/signal_windows.go:255
+database/sql.(*Row).Scan
+	C:/Program Files/Go/src/database/sql/sql.go:3350
+webapi/api/dao.CheckExistHost
+	E:/后端开发/Go语言/webapi/api/dao/host.go:13
+webapi/api/dao.AddHost
+	E:/后端开发/Go语言/webapi/api/dao/host.go:23
+webapi/api/controller.AddHost
+	E:/后端开发/Go语言/webapi/api/controller/host.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.JWTAuth.func1
+	E:/后端开发/Go语言/webapi/middlewares/jwt.go:88
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.Cors.func1
+	E:/后端开发/Go语言/webapi/middlewares/cors.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-09-14T14:58:15.946+0800	INFO	middlewares/middleware.go:31	/v1/host/add	{"status": 500, "method": "POST", "path": "/v1/host/add", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "13.956ms"}
+2022-09-14T14:59:39.574+0800	ERROR	middlewares/middleware.go:75	[Recovery from panic]	{"error": "runtime error: invalid memory address or nil pointer dereference", "request": "POST /v1/host/add HTTP/1.1\r\nHost: 127.0.0.1:51000\r\nAccept: application/json\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: zh-CN,zh;q=0.9\r\nConnection: keep-alive\r\nContent-Length: 84\r\nContent-Type: application/json\r\nCookie: csrf_token=wCBQlaN2Ptqgd2PXXFe2p5VnnpaOo/i3vBA0T5/6eus=\r\nOrigin: http://127.0.0.1:51000\r\nReferer: http://127.0.0.1:51000/swagger/index.html\r\nSec-Ch-Ua: \"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Ch-Ua-Platform: \"Windows\"\r\nSec-Fetch-Dest: empty\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Site: same-origin\r\nToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imx4IiwiZXhwIjoxNjYzMTQ1MzQ5LCJpc3MiOiJ3ZWJhcGkifQ.UuziFV8KgYzzZO2IHtz_q0EavGo-om6o1hMvoB7mR4Q\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\r\n\r\n", "stack": "goroutine 28 [running]:\nruntime/debug.Stack()\n\tC:/Program Files/Go/src/runtime/debug/stack.go:24 +0x65\nwebapi/middlewares.GinRecovery.func1.1()\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:78 +0x2da\npanic({0x15ef020, 0x24b8e60})\n\tC:/Program Files/Go/src/runtime/panic.go:838 +0x207\ndatabase/sql.(*Row).Scan(0xc00048f4d0?, {0xc0004af180?, 0xc0006c2318?, 0x0?})\n\tC:/Program Files/Go/src/database/sql/sql.go:3350 +0x34\nwebapi/api/dao.CheckExistHost({0xc000800906, 0x3})\n\tE:/后端开发/Go语言/webapi/api/dao/host.go:13 +0xf3\nwebapi/api/dao.AddHost({0x0, {0xc000800906, 0x3}, {0xc000800900, 0x3}, {0xc00080090a, 0x6}, {0x0, 0x0}, {0xc000800903, ...}, ...})\n\tE:/后端开发/Go语言/webapi/api/dao/host.go:23 +0x85\nwebapi/api/controller.AddHost(0xc00058c200?)\n\tE:/后端开发/Go语言/webapi/api/controller/host.go:32 +0x1b8\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.JWTAuth.func1(0xc00058c200)\n\tE:/后端开发/Go语言/webapi/middlewares/jwt.go:88 +0x328\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.Cors.func1(0xc00058c200)\n\tE:/后端开发/Go语言/webapi/middlewares/cors.go:27 +0x174\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.GinRecovery.func1(0xc00058c200)\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:89 +0x76\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\nwebapi/middlewares.GinLogger.func1(0xc00058c200)\n\tE:/后端开发/Go语言/webapi/middlewares/middleware.go:25 +0xa2\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc00058c200)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101 +0x82\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xc00058c200)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240 +0xe7\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000335860, 0xc00058c200)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616 +0x671\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000335860, {0x17ebfe8?, 0xc0000e8000}, 0xc00058c100)\n\tC:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572 +0x1dd\nnet/http.serverHandler.ServeHTTP({0x17ea010?}, {0x17ebfe8, 0xc0000e8000}, 0xc00058c100)\n\tC:/Program Files/Go/src/net/http/server.go:2916 +0x43b\nnet/http.(*conn).serve(0xc0006cbd60, {0x17eca38, 0xc0001c9710})\n\tC:/Program Files/Go/src/net/http/server.go:1966 +0x5d7\ncreated by net/http.(*Server).Serve\n\tC:/Program Files/Go/src/net/http/server.go:3071 +0x4db\n"}
+webapi/middlewares.GinRecovery.func1.1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:75
+runtime.gopanic
+	C:/Program Files/Go/src/runtime/panic.go:838
+runtime.panicmem
+	C:/Program Files/Go/src/runtime/panic.go:220
+runtime.sigpanic
+	C:/Program Files/Go/src/runtime/signal_windows.go:255
+database/sql.(*Row).Scan
+	C:/Program Files/Go/src/database/sql/sql.go:3350
+webapi/api/dao.CheckExistHost
+	E:/后端开发/Go语言/webapi/api/dao/host.go:13
+webapi/api/dao.AddHost
+	E:/后端开发/Go语言/webapi/api/dao/host.go:23
+webapi/api/controller.AddHost
+	E:/后端开发/Go语言/webapi/api/controller/host.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.JWTAuth.func1
+	E:/后端开发/Go语言/webapi/middlewares/jwt.go:88
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.Cors.func1
+	E:/后端开发/Go语言/webapi/middlewares/cors.go:27
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinRecovery.func1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+webapi/middlewares.GinLogger.func1
+	E:/后端开发/Go语言/webapi/middlewares/middleware.go:25
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/recovery.go:101
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/context.go:173
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:616
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	C:/Users/xiong.li/go/pkg/mod/github.com/gin-gonic/gin@v1.8.1/gin.go:572
+net/http.serverHandler.ServeHTTP
+	C:/Program Files/Go/src/net/http/server.go:2916
+net/http.(*conn).serve
+	C:/Program Files/Go/src/net/http/server.go:1966
+2022-09-14T14:59:39.578+0800	INFO	middlewares/middleware.go:31	/v1/host/add	{"status": 500, "method": "POST", "path": "/v1/host/add", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "14.7866ms"}
+2022-09-14T15:00:47.632+0800	INFO	dao/host.go:29	host add faild
+2022-09-14T15:00:47.633+0800	INFO	middlewares/middleware.go:31	/v1/host/add	{"status": 400, "method": "POST", "path": "/v1/host/add", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "78.0637ms"}
+2022-09-14T15:03:42.446+0800	INFO	middlewares/middleware.go:31	/v1/host/add	{"status": 400, "method": "POST", "path": "/v1/host/add", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "44.3094ms"}
+2022-09-14T15:03:43.574+0800	INFO	middlewares/middleware.go:31	/v1/host/add	{"status": 400, "method": "POST", "path": "/v1/host/add", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "44.0174ms"}
+2022-09-14T15:03:45.615+0800	INFO	middlewares/middleware.go:31	/v1/host/add	{"status": 400, "method": "POST", "path": "/v1/host/add", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "44.9579ms"}
+2022-09-14T15:05:14.356+0800	INFO	middlewares/middleware.go:31	/v1/host/add	{"status": 400, "method": "POST", "path": "/v1/host/add", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "45.8ms"}
+2022-09-14T15:06:54.278+0800	INFO	middlewares/middleware.go:31	/v1/host/add	{"status": 400, "method": "POST", "path": "/v1/host/add", "query": "", "ip": "127.0.0.1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "44.0822ms"}
+2022-09-14T15:22:23.195+0800	INFO	middlewares/middleware.go:31	//v1/auth/ddd	{"status": 404, "method": "GET", "path": "//v1/auth/ddd", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "835.9µs"}
+2022-09-14T15:22:27.032+0800	INFO	middlewares/middleware.go:31	/v1/auth/ddd	{"status": 404, "method": "GET", "path": "/v1/auth/ddd", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "233.8µs"}
+2022-09-14T15:22:36.074+0800	INFO	middlewares/middleware.go:31	/v1/auth/ddd	{"status": 404, "method": "GET", "path": "/v1/auth/ddd", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "965.7µs"}
+2022-09-14T15:22:36.809+0800	INFO	middlewares/middleware.go:31	/v1/auth/ddd	{"status": 404, "method": "GET", "path": "/v1/auth/ddd", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "434.3µs"}
+2022-09-14T15:24:15.766+0800	INFO	middlewares/middleware.go:31	/v1/auth/ddd	{"status": 404, "method": "GET", "path": "/v1/auth/ddd", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "0s"}
+2022-09-14T15:24:22.419+0800	INFO	middlewares/middleware.go:31	/v1/auth/ddd	{"status": 404, "method": "GET", "path": "/v1/auth/ddd", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "errors": "", "cost": "203.6µs"}

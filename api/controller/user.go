@@ -15,6 +15,17 @@ func GeneratePassword(password string) string {
 	return string(result)
 }
 
+// @Summary 用户添加
+// @Tags 用户管理
+// @Produce application/json
+// @Accept application/json
+// @securityDefinitions.apikey BearerAuth
+// @in header
+// @name Token
+// @Param Token header string true "Insert your access Token"<Add access token here>
+// @Param  forms.UserAddForm body forms.UserAddForm true "用户信息"
+// @Success 200
+// @Router /v1/user/add [post]
 // 用户添加
 func UserAdd(ctx *gin.Context) {
 	var user forms.UserAddForm
@@ -44,6 +55,15 @@ func UserAdd(ctx *gin.Context) {
 	}
 }
 
+// @Summary 用户查询(单个)
+// @Tags 用户管理
+// @securityDefinitions.apikey BearerAuth
+// @in header
+// @name Token
+// @Param Token header string true "Insert your access Token"<Add access token here>
+// @Param username body forms.UsernameForm true  "用户信息"
+// @Success 200
+// @Router /v1/user/get [post]
 // 用户查询(单个)
 func GetUser(ctx *gin.Context) {
 	var user forms.UsernameForm
@@ -69,6 +89,16 @@ func GetUser(ctx *gin.Context) {
 	}
 }
 
+// @Summary 用户查询(全部)
+// @Tags 用户管理
+// @Produce application/json
+// @Accept application/json
+// @securityDefinitions.apikey BearerAuth
+// @in header
+// @name Token
+// @Param Token header string true "Insert your access Token"<Add access token here>
+// @Success 200
+// @Router /v1/user/getall [get]
 // 用户查询（全部）
 func GetUserAll(ctx *gin.Context) {
 	response := dao.GetUserAll()
@@ -77,6 +107,17 @@ func GetUserAll(ctx *gin.Context) {
 	})
 }
 
+// @Summary 用户删除
+// @Tags 用户管理
+// @Produce application/json
+// @Accept application/json
+// @securityDefinitions.apikey BearerAuth
+// @in header
+// @name Token
+// @Param Token header string true "Insert your access Token"<Add access token here>
+// @Param  forms.UsernameForm body forms.UsernameForm true "用户信息"
+// @Success 200
+// @Router /v1/user/delete [post]
 // 删除用户
 func DeleteUser(ctx *gin.Context) {
 	var user forms.UsernameForm
@@ -102,6 +143,18 @@ func DeleteUser(ctx *gin.Context) {
 	}
 }
 
+// @Summary 用户修改
+// @Tags 用户管理
+// @Produce application/json
+// @Accept application/json
+// @securityDefinitions.apikey BearerAuth
+// @in header
+// @name Token
+// @Param Token header string true "Insert your access Token"<Add access token here>
+// @Param  forms.UserInfo body forms.UserInfo true "用户信息"
+// @Success 200
+// @Security ApiKeyAuth
+// @Router /v1/user/update [post]
 // 用户修改
 func UpdateUser(ctx *gin.Context) {
 	var user forms.UserInfo
