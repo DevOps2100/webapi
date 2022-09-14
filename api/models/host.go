@@ -6,7 +6,7 @@ import (
 
 // 用户表字段
 type Host struct {
-	HID       uint      `json:"hid" gorm:"primaryKey"`
+	ID        uint      `json:"id" gorm:"primaryKey"`
 	Name      string    `json:"name" gorm:"name"`
 	Ipaddress string    `json:"ipaddress" gorm:"ipaddress"`
 	Password  string    `json:"password" gorm:"password"`
@@ -18,5 +18,5 @@ type Host struct {
 
 //用户表名称
 func (Host) TableName() string {
-	return "host"
+	return "hosts"
 }
