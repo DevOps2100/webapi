@@ -4,17 +4,17 @@ logsAddress: "./logs/"
 
 mysql:
   username: "root"
-  host: ""
+  host: "42.193.154.221"
   port: 3306
-  password: ""
+  password: "adl1314520"
   dbname: "webapi"
   SetMaxOpenConns: 50
   SetMaxIdleConns: 100
 
 redis:
-  host: ""
+  host: "42.193.154.221"
   port: 6379
-  password: ""
+  password: "adl1314520"
   db: 01
 jwt:
   key: "webapiverygood"

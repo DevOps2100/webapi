@@ -12,6 +12,6 @@ func AuthRouter(Router *gin.RouterGroup) {
 	{
 		Auth.POST("login", controller.Login)
 		Auth.POST("logout", controller.Logout)
-		Auth.POST("ddd", controller.TestDD)
+		Auth.GET("ddd", controller.WEBSET)
 	}
 }

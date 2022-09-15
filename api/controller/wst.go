@@ -6,13 +6,13 @@ import (
 	"webapi/api/forms"
 )
 
-var user *forms.Host = nil
-
-func TestDD(ctx *gin.Context) {
-	fmt.Println(user, &forms.Host{Name: "123123"})
-	fmt.Printf("%T %T\n", user, forms.Host{})
-
-	ctx.JSON(200, gin.H{
-		"data": user,
-	})
+func WEBSET(ctx *gin.Context) {
+	info := forms.WSHost{
+		Username:  "root",
+		Password:  "",
+		Port:      22,
+		Ipaddress: "42.193.154.221",
+	}
+	fmt.Println(info)
+	ctx.HTML(200, "/static/front/inedex.html", gin.H{})
 }

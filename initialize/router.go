@@ -14,6 +14,9 @@ import (
 func Routers() *gin.Engine {
 	Router := gin.Default()
 
+	// 添加i静态文件
+	Router.Static("/static", "./static")
+
 	// swagger 配置
 	// programatically set swagger info
 	docs.SwaggerInfo.Title = "webapi"

@@ -2,10 +2,8 @@ package main
 
 import (
 	"fmt"
-
 	"github.com/fatih/color"
 	"go.uber.org/zap"
-
 	"webapi/global"
 	"webapi/initialize"
 )
@@ -20,13 +18,22 @@ func main() {
 		color.Red("数据库初始化异常")
 		panic(err)
 	}
+
 	// REDIS数据库初始化
 	if err := initialize.InitRedis(); err != nil {
-		color.Red("redis初始化失败")
+		color.Red("数据库初始化异常")
 		panic(err)
 	}
+
 	// 日志配置初始化
 	initialize.InitLogger()
+
+	// websocket启动
+	//go func() {
+	//	Handler := middlewares.SshHandler{}
+	//	http.HandleFunc("/ws", Handler.WebSocket)
+	//	http.ListenAndServe(":8080", nil)
+	//}()
 
 	// 路由配置初始化
 	Router := initialize.Routers()

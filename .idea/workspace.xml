@@ -4,25 +4,26 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b671ac8a-3100-415c-b1c7-b467724e19dd" name="变更" comment="添加swagger文档">
-      <change afterPath="$PROJECT_DIR$/api/controller/wst.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/docs.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/swagger.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/参数说明.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/log2022-09-14.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/host.go" afterDir="false" />
+    <list default="true" id="b671ac8a-3100-415c-b1c7-b467724e19dd" name="变更" comment="数据源管理增加">
+      <change afterPath="$PROJECT_DIR$/middlewares/wshandler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/front/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/front/dist/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/front/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/front/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/front/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/front/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/front/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controller/data.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/controller/data.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controller/kafka.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controller/redis.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/controller/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/controller/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/dao/data.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/dao/data.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controller/wst.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/controller/wst.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/forms/host.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/forms/host.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/initialize/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/initialize/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log2022-09-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log2022-09-14.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/data.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/data.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/webssh.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/auth.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,29 +58,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;configurable..is.expanded&quot;: &quot;true&quot;,
-    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/后端开发/Go语言/webapi/router&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.goide.configuration.GoLibrariesConfigurableProvider&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "configurable..is.expanded": "true",
+    "configurable.GoLibrariesConfigurable.is.expanded": "true",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "E:/后端开发/Go语言/webapi/static",
+    "settings.editor.selected.configurable": "com.goide.configuration.GoLibrariesConfigurableProvider"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\后端开发\Go语言\webapi\static" />
       <recent name="E:\后端开发\Go语言\webapi\router" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\后端开发\Go语言\webapi\middlewares" />
     </key>
   </component>
   <component name="RunManager">
@@ -122,7 +127,8 @@
     <MESSAGE value="主机管理添加" />
     <MESSAGE value="数据源管理添加" />
     <MESSAGE value="添加swagger文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加swagger文档" />
+    <MESSAGE value="数据源管理增加" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据源管理增加" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
